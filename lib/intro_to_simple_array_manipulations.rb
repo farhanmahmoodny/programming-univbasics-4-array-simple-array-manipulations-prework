@@ -21,4 +21,8 @@ def using_shift(array)
   array.shift
 end
 
-
+def shift_with_args(array)
+  newArr = []
+  newArr.push(array.shift)
+  newArr.push(array.shift)
+end
