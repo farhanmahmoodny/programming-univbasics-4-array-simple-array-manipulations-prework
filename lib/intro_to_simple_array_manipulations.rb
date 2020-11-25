@@ -13,6 +13,7 @@ end
 def pop_with_args(array)
   newArr = Array.new
   newArr.push(array.pop)
+  newArr.push(array.pop)
   newArr
 end
 
